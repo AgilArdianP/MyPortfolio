@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Tambahan styling untuk smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Padding untuk section agar navbar tidak menutupi konten saat di-scroll */
+section {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
+/* Hover effect untuk project cards */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Styling untuk progress bars */
+.progress {
+  height: 10px;
+  border-radius: 5px;
+}
+
+/* Styling untuk tombol */
+.btn {
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
