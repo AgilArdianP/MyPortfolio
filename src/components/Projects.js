@@ -5,30 +5,30 @@ function Projects({ darkMode }) {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Website",
-      description: "A full-featured online store built with React, Node.js, and MongoDB with payment integration.",
+      title: "Company Profle",
+      description: "Company profile engaged in IT equipment repair services",
       image: "/images/Projects1.png",
       demoLink: "https://multijayat.github.io/Servis/",
       codeLink: "https://github.com/MultiJayaT/Servis.git",
-      technologies: "React, Node.js, MongoDB"
+      technologies: "HTML, CSS, JavaScript"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task manager with real-time updates using React, Socket.io and Express.",
+      title: "POS Application",
+      description: "an application for managing store transactions that is very flexible",
       image: "/images/Projects2.png",
-      //demoLink: "#",
-      codeLink: "#",
-      technologies: "React, Express, Socket.io"
+      demoLink: "#",
+      codeLink: "https://github.com/MultiJayaT/POS-APP.git",
+      technologies: "CodeIgniter, MYSQL, Bootstrap"
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "A weather application that provides real-time weather data and forecasts using external APIs.",
+      title: "ERP Application",
+      description: "an application to manage company data (products, suppliers, members, staff).",
       image: "/images/project3.jpg",
       demoLink: "#",
       codeLink: "#",
-      technologies: "React, OpenWeather API"
+      technologies: "Express.js, MySQL, React.js, TailwindCss"
     }
   ];
 
